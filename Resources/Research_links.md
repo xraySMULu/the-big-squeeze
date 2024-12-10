@@ -19,6 +19,11 @@
 * https://fred.stlouisfed.org/seriesBeta/CSUSHPINSA
 * https://fred.stlouisfed.org/seriesBeta/MORTGAGE30US
 * https://fred.stlouisfed.org/seriesBeta/UNRATE
+## Chris
+* https://www.kaggle.com/datasets/sazidthe1/global-inflation-data
+* https://www.kaggle.com/datasets/belayethossainds/global-inflation-dataset-212-country-19702022
+* https://www.kaggle.com/datasets/pavankrishnanarne/us-inflation-dataset-1947-present
+
 
   
 
