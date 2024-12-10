@@ -10,16 +10,12 @@
 * `pandas == 1.3.5+`
 * `hvplot == 0.7.3`
 * `matplotlib == 3.5.1`
-* `json == 2.0.9`
-* `quandl == 3.7.0`
-* `yfinance == 0.1.74`
-* `plotly.express == 5.9.0`
 
 ### *Files Navigation*
   
 ### *Purpose of Use*   
 
-## Data Pre-Processing/Gathering Steps (Cleaning and Manipulation)
+## Data Pre-Processing/Gathering Steps
 
 ## Visuals and Explanations
 
