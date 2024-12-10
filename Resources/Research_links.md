@@ -15,4 +15,10 @@
 * https://www.whitehouse.gov/cea/written-materials/2024/09/11/the-role-of-housing-in-u-s-inflation/
 * https://www.census.gov/data/tables/2024/demo/hhp/cycle01.html
 * https://www.kaggle.com/datasets/heidarmirhajisadati/global-economic-indicators-dataset-2010-2023
+* https://www.kaggle.com/datasets/pavankrishnanarne/us-inflation-dataset-1947-present
+* https://fred.stlouisfed.org/seriesBeta/CSUSHPINSA
+* https://fred.stlouisfed.org/seriesBeta/MORTGAGE30US
+* https://fred.stlouisfed.org/seriesBeta/UNRATE
+
+  
 
