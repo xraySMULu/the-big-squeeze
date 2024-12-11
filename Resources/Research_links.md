@@ -22,22 +22,13 @@
   ## Ideas
   **EDA** on
   
-a.  Inflation Vs home price index
 
-b.	Inflation vs unemployment rate
-
-c.	Inflation vs Mortgage rates
-
-d.	Inflation Vs Home affordability index
-
-i.	Inflation + mortgage rates vs home affordability
-
-e.	Inflation Vs Household income
-
-i.	Inflation vs household income vs home affordability
-
-f.	Home price index vs house hold income
-
+* Inflation Vs home price index
+* Inflation vs unemployment rate
+* Inflation vs Mortgage rates
+* Inflation Vs Home affordability index (Inflation + mortgage rates vs home affordability)
+* Inflation Vs Household income ( Inflation vs household income vs home affordability)
+* Home price index vs house hold income
 
 **Analysis during - Pandemic period (2020-2022), pre-pandemic (2015-2020) and post-pandemic (2022-2024)**
 
