@@ -52,6 +52,9 @@
 ## Laxmi
 * https://www.zillow.com/research/data/
 * https://www.zillow.com/research/graphics/
-
+   ## Ideas on
+   1.Inflation Vs Home value index
+   2.Inflation Vs Unemployment rate
+*  Zillow + BLS provide highly detailed, granular datasets that are ideal for in-depth analysis.
   
 
