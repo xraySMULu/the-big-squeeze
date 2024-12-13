@@ -17,7 +17,7 @@
   
   
 ### *Purpose of Use*   
-Our team decided to research the effects of inflation during during a Pre- and Post-Pandemic date range, investigating true inflation percentage, annual inflation against a 2% average, consumer price index (CPI) reflects house related costs, unemployment rate,Correlation between the consumer price Index (CPI) and the Home price Index(HPI),Impact of Housing cost on Foreclosures and Mortgage rates,[7] and [8].
+Our team decided to research the effects of inflation during during a Pre- and Post-Pandemic date range, investigating true inflation percentage, annual inflation against a 2% average, consumer price index (CPI) reflects house related costs, unemployment rate, Correlation between inflation and the Housing cost, the impact of Housing cost on Foreclosures,[7] and [8].
 
 The business question we hope to answer is: *?*
 
