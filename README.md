@@ -32,13 +32,18 @@ The periods of inflation analyzed include:
 
 
 ## Data Pre-Processing/Gathering Steps
-Our team accessed inflation data from kaggle, U.S. Bureau of Labor Statistics and the U.S. Department of Labor.
+Our team accessed inflation data from Kaggle, the U.S. Bureau of Labor Statistics (BLS), and the U.S. Department of Labor to analyze trends and visualize key economic metrics.
 
-We started by accessing CPI data from the U.S. Bureau of Labor Statistics. We used a pandas module called CPI to leverage the Consumer Price Index for north america. The data needed simple manipulation. First, it was necessary to define the start range of the data and the amount of periods in range. Then we calculated a 2% Inflation increase per year and plotted that on top of the CPI progression. We used the same dataframe to plot the actual inflation percentage against the average. These dataframes were plotted using line graphs and also a dynamic map using matplotlib. 
+* Consumer Price Index (CPI) Analysis
+We began by accessing CPI data from the U.S. Bureau of Labor Statistics. Using the Python pandas module along with the CPI library, we leveraged the Consumer Price Index for North America. The data underwent basic preprocessing, including defining the start range and specifying the number of periods in the range. To analyze inflation trends, we calculated a 2% annual inflation increase and plotted it alongside the CPI progression. Additionally, we plotted the actual inflation percentage against the average using the same dataframe. These dataframes were visualized with line graphs and a dynamic map created with Matplotlib.
 
-We then accessed time-series data in CSV format from Federal Reserve Economic Data and Kaggle. After acquiring the dataset, we cleaned it by renaming and filtering the columns to make the data more usable. Next, we sliced the dataframe to align the timelines, ensuring consistency across the dataset. We also handled missing data to address any gaps and performed normalization to prepare the data for comparison. These dataframes were plotted using scatter and heat maps using matplotlib. 
+* Time-Series Data Analysis
+Next, we worked with time-series data in CSV format obtained from Federal Reserve Economic Data (FRED) and Kaggle. The dataset was cleaned by renaming and filtering columns for usability. We aligned timelines by slicing the dataframe and addressed missing data to ensure consistency. The data was normalized for comparison and visualized using scatter plots and heatmaps, generated with Matplotlib.
 
-We then got data from the Bureau of Labor Statistics (BLS), which provides monthly and yearly stats through its public API or as downloadable datasets. The analysis looks at two main time periods: pre-pandemic (2015–2019) and post-pandemic (2020–2024). It focuses on two key metrics: the Housing CPI, which tracks housing costs, and the Unemployment Rate, which measures the percentage of unemployed people in the labor force. You can get the data by using the BLS API with specific series IDs and time ranges or by downloading it as a CSV or Excel file from their website. The goal is to process and visualize the data to spot trends before and after the pandemic, especially around housing inflation and unemployment changes. These dataframes were plotted using pie charts. 
+* Pre- and Post-Pandemic Economic Trends
+We also accessed data from the Bureau of Labor Statistics, which offers monthly and yearly statistics via its public API and downloadable datasets. This analysis focused on two distinct time periods: pre-pandemic (2015–2019) and post-pandemic (2020–2024). Key metrics included the Housing CPI, reflecting housing-related expenses, and the Unemployment Rate, measuring the percentage of unemployed individuals in the labor force. The data was retrieved using the BLS API with specific series IDs and time ranges or downloaded as CSV or Excel files. These trends were analyzed to highlight housing inflation and changes in unemployment, visualized using pie charts.
+
+Through this project, we aimed to process, analyze, and visualize critical economic data to better understand inflation and unemployment trends before and after the pandemic.
 
 [Xavier add a paragraph about accessing data]
 
