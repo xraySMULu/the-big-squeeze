@@ -41,7 +41,22 @@ Our team accessed inflation data from kaggle, U.S. Bureau of Labor Statistics an
 [Xavier add a paragraph about accessing data]
 
 [Laxmi add a paragraph about accessing data]
+To obtain the Housing Consumer Price Index (CPI) and Unemployment Rate data:
 
+Source: The data is typically sourced from the Bureau of Labor Statistics (BLS), which provides monthly and annual statistics through its public API and downloadable datasets.
+
+Time Frames:
+Pre-Pandemic data covers the period 2015-2019.
+Post-Pandemic data covers the period 2020-2024.
+
+Series Identifiers:
+Housing CPI: Series that reflects the cost of housing-related expenses.
+Unemployment Rate: Series that tracks the percentage of unemployed individuals in the labor force.
+
+Access Methods:
+Data can be fetched using the BLS API by specifying series IDs and time ranges.
+Data can also be downloaded manually in CSV or Excel formats from the BLS website.
+Analysis: The data is processed and visualized to compare trends before and after the pandemic, highlighting inflation in housing and changes in unemployment rates.
 
 ## Visuals and Explanations
 
