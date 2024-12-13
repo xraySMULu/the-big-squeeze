@@ -1,4 +1,4 @@
-# The Big Squeeze: The Effect of Inflation on Housing, Employment and Spending power
+# The Big Squeeze: The Effect of Inflation on Housing and Unemployment
 
 ## **Project Overview**
 
@@ -48,11 +48,9 @@ After analyzing the above data and plots, we realized there were other data sour
 
 Using line graphs, we plotted the Pre- and Post-Pandemic Inflation Rate, and also the true inflation percentage. Below is a sample of each. All plots can be found in 'data_analysis.ipynb'.
 
-![Consumer Price Index (CPI): Pre- and Post-Pandemic Inflation Rate](resources/content/lc_cpi_govtavg.png)
-Consumer Price Index (CPI): Pre- and Post-Pandemic Inflation Rate
+![Consumer Price Index (CPI): Pre- and Post-Pandemic Inflation Rate](Resources/content/lc_cpi_govtavg.png)
 
-![Consumer Price Index (CPI): Pre- and Post-Pandemic True Inflation percentage](resources/content/lc_cpi_percentchange.png)
-Consumer Price Index (CPI): Pre- and Post-Pandemic True Inflation percentage
+![Consumer Price Index (CPI): Pre- and Post-Pandemic True Inflation percentage](Resources/content/lc_cpi_percentchange.png)
 
 [Mahhvid plots]
 
