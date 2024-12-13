@@ -17,7 +17,7 @@
   
   
 ### *Purpose of Use*   
-Our team decided to research the effects of inflation during during a Pre- and Post-Pandemic date range, investigating true inflation percentage, annual inflation against a 2% average, [3],[4],[5],[6],[7] and [8].
+Our team decided to research the effects of inflation during during a Pre- and Post-Pandemic date range, investigating true inflation percentage, annual inflation against a 2% average, consumer price index (CPI) reflects house related costs, umployment rate,[5],[6],[7] and [8].
 
 The business question we hope to answer is: *?*
 
