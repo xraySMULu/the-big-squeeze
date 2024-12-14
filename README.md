@@ -57,7 +57,14 @@ Using line graphs, we plotted the Pre- and Post-Pandemic Inflation Rate, and als
 
 ![Consumer Price Index (CPI): Pre- and Post-Pandemic True Inflation percentage](Resources/content/lc_cpi_percentchange.png)
 
-[Mahhvid plots]
+The scatter plots explains the relationship and the Correlation.
+
+![image](https://github.com/user-attachments/assets/c4014a2d-64f0-4003-850d-60daad2975e3)
+![image](https://github.com/user-attachments/assets/7c10c4db-f7f6-4336-a75b-5b3ed6875310)
+![image](https://github.com/user-attachments/assets/a1141833-22ad-4ee3-905c-53c76065f6e5)
+
+
+
 
 [Laxmi plots]
 
