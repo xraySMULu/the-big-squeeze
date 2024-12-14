@@ -59,9 +59,11 @@ Using line graphs, we plotted the Pre- and Post-Pandemic Inflation Rate, and als
 
 The scatter plots explains the relationship and the Correlation.
 
-![image](https://github.com/user-attachments/assets/c4014a2d-64f0-4003-850d-60daad2975e3)
-![image](https://github.com/user-attachments/assets/7c10c4db-f7f6-4336-a75b-5b3ed6875310)
-![image](https://github.com/user-attachments/assets/a1141833-22ad-4ee3-905c-53c76065f6e5)
+![image](https://github.com/user-attachments/assets/5d50ef3e-e572-4f4b-875a-926ff62e09a5)
+![image](https://github.com/user-attachments/assets/5951c1c9-4c6b-485d-9cab-53a8b7a8d7ab)
+![image](https://github.com/user-attachments/assets/e52b372e-1eca-447f-9347-4692e99faff7)
+![image](https://github.com/user-attachments/assets/f2b232c3-b54c-4c0f-b58d-2be741a2f4f2)
+![image](https://github.com/user-attachments/assets/4da4e912-fd9d-4676-97cb-ceac5efa056e)
 
 
 
