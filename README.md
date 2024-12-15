@@ -41,7 +41,7 @@ We began by accessing CPI data from the U.S. Bureau of Labor Statistics. Using t
 Next, we worked with time-series data in CSV format obtained from Federal Reserve Economic Data (FRED) and Kaggle. The dataset was cleaned by renaming and filtering columns for usability. We aligned timelines by slicing the dataframe and addressed missing data to ensure consistency. The data was normalized for comparison and visualized using scatter plots and heatmaps, generated with Matplotlib.
 
 * Pre- and Post-Pandemic Economic Trends
-We also accessed data from the Bureau of Labor Statistics, which offers monthly and yearly statistics via its public API and downloadable datasets. This analysis focused on two distinct time periods: pre-pandemic (2015–2019) and post-pandemic (2020–2024). Key metrics included the Housing CPI, reflecting housing-related expenses, and the Unemployment Rate, measuring the percentage of unemployed individuals in the labor force. The data was retrieved using the BLS API with specific series IDs and time ranges or downloaded as CSV or Excel files. These trends were analyzed to highlight housing inflation and changes in unemployment, visualized using pie charts.
+We also accessed data from the Bureau of Labor Statistics, which offers monthly and yearly statistics via its public API and downloadable datasets. This analysis focused on two distinct time periods: pre-pandemic (2015–2019) and post-pandemic (2020–2024). Key metrics included the Housing CPI, reflecting housing-related expenses, and the Unemployment Rate, measuring the percentage of unemployed individuals in the labor force. The data was retrieved using the BLS API with specific series IDs and time ranges or downloaded as CSV or Excel files. These trends were analyzed to highlight housing inflation and changes in unemployment, visualized using line and pie charts.
 
 Through this project, we aimed to process, analyze, and visualize critical economic data to better understand inflation and unemployment trends before and after the pandemic.
 
@@ -69,9 +69,19 @@ The scatter plots explains the relationship and the Correlation.
 
 
 [Laxmi plots]
+Overall Consumer Price Index (CPI) related to House hold costs
 ![Consumer Price Index (CPI) Pre and Post-Pandemic House Related Costs](Resources/content/la_CPI_HouseRelated.png)
+
+CPI breadown of Renters and Owners
+
 ![CPI for Renters and Homeowners](Resources/content/la_CPI_Renters_Owners.png)
+
+Overall unemployment rate 
+
 ![Unemployment Pre and Post-Pandemic](Resources/content/la_unemployment.png)
+
+Breakdown of heavily impacted job sectors
+
 ![Most inflated unemployment sectors Pre and Post-Pandemic](Resources/content/la_unemployment_sectors.png)
 [Xavier plots]
 
