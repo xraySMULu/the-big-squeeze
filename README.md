@@ -69,7 +69,10 @@ The scatter plots explains the relationship and the Correlation.
 
 
 [Laxmi plots]
-
+![Consumer Price Index (CPI) Pre and Post-Pandemic House Related Costs](Resources/content/la_CPI_HouseRelated.png)
+![CPI for Renters and Homeowners](Resources/content/la_CPI_Renters_Owners.png)
+![Unemployment Pre and Post-Pandemic](Resources/content/la_unemployment.png)
+![Most inflated unemployment sectors Pre and Post-Pandemic](Resources/content/la_unemployment_sectors.png)
 [Xavier plots]
 
 ## Additional Explanations and Major Findings
