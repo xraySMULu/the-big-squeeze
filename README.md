@@ -74,19 +74,32 @@ The scatter plots explains the relationship and the Correlation.
 
 ## Additional Explanations and Major Findings
 
-Our primary finding is that the correlation between inflation and housing is strong. 
+**Our primary finding is that the correlation between inflation and housing is strong.** 
 
 https://www.investopedia.com/ask/answers/correlation-inflation-houses.asp
 https://www.bankrate.com/real-estate/inflation-housing-market/#tips
 https://www.whitehouse.gov/cea/written-materials/2021/09/09/housing-prices-and-inflation/
 
-To begin our investigation, we took a look at ??
+To begin our investigation, we took a look at the consumer Price Index and Home price Index datasets. 
 
-Through the first part of our investigation, we found little data that clearly indicates the correlation between inflation and housing ??espective markets.
-
-Next, we took a look at ??
+**HPI** is an indicator of the changes in the price of homes over time. It is calculated by comparing the price of homes in a particular area at different times.
+**Inflation** (measured by CPI), on the other hand, measures the overall increase in the prices of goods and services over time. It is calculated by tracking the prices of a basket of goods and services over time. 
 
 After analyzing our initial dataset, we discussed the other variables that we believe may play a role in our research, and decided that inflation should be the key indicator that we consider alongside what we initially gathered. Our data shows spikes in inflation that occur at the same time as the spikes we see in housing. In comparision for the Pandemic Era, we took inflation data from the 70's, suggesting that they are closely correlated. The same can be said for the graphs of inflation during the 2008 crash. Both show spikes shortly after the event and as inflation continues to rise, so does the cost of housing.
+
+**HPI vs Inflation Over Time**
+* Inflation and HPI often move in the same direction: Generally, when inflation rates rise, HPI tends to rise as well. This is because higher inflation rates tend to lead to higher interest rates, which in turn can increase demand for real estate as investors look for ways to protect their assets against inflation.
+
+While understanding the relationship between HPI and the Inflation, we decided to analyze the impact of housing prices on Mortgage rates and foreclosures as well as the relationship between mortgage rates, the home price Index growth rate, and foreclosures rates reflect the intricate dynamics of the housing market and broader economic factors. 
+
+**Does Mortgage Rates influence the HPI growth rate?**
+
+Definitely. As mortgage rates increase, borrowing becomes expensive, reducing house demand. This dampends HPI growth. On the other hand, lower mortgage rates reduce the cost of borrowing, making homes more affordable. This stimulates demand, leading to faster HPI growth. 
+
+**Does the Home Price Index affect foreclosure rates?** 
+Declining home prices can lead to negative equity (When a homeownder owes more than their home's market value) increasing foreclosure rates. Borrowers in negative equity are less likely to refinance or sell. 
+
+As home value increases, homeownders build equity, reduceing foreclosure risks. Homeowners with equity can sell or refinance to avoid foreclosures
 
 After analyzing inflation and housing, we decided to direct our attention towards housing and umeployment rates during ?
 
@@ -122,6 +135,10 @@ One consideration that would make this all more clear, is ?
 * Federal Reserve Economic Data
 * Coordinates of 50 states: https://gist.github.com/dikaio/0ce2a7e9f7088918f8c6ff24436fd035
 * U.S. Bureau of Labor Statistics
+* https://fastercapital.com/content/House-Price-Index--HPI--vs--Inflation--Understanding-the.html
+* chatgpt.com
+* https://fred.stlouisfed.org/series/CSUSHPISA
+  
 
 ## Team Members:
 
