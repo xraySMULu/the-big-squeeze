@@ -17,7 +17,7 @@
   
   
 ### *Purpose of Use*   
-Our team decided to research the effects of inflation during during a Pre- and Post-Pandemic date range, investigating true inflation percentage, annual inflation against a 2% average, consumer price index (CPI) reflects house related costs, unemployment rate, Correlation between inflation and the Housing cost, the impact of Housing cost on Foreclosures,[7] and [8].
+Our team decided to research the effects of inflation during during a Pre- and Post-Pandemic date range, investigating true inflation percentage, annual inflation against a 2% average, consumer price index (CPI) reflects house related costs, unemployment rate, Correlation between inflation and the Housing cost, the impact of Housing cost on Foreclosures & Mortgage rates,[7] and [8].
 
 The business question we hope to answer is: *if we can predict an increase or decline in housing costs when there is an inflationary period. Additionally, we hope to be able to answer if we can predict a rise or decline in the unemployment rate when there is an inflationary period.*
 
@@ -93,21 +93,23 @@ https://www.whitehouse.gov/cea/written-materials/2021/09/09/housing-prices-and-i
 
 To begin our investigation, we took a look at the consumer Price Index and Home price Index datasets. 
 
-**HPI** is an indicator of the changes in the price of homes over time. It is calculated by comparing the price of homes in a particular area at different times.
-**Inflation** (measured by CPI), on the other hand, measures the overall increase in the prices of goods and services over time. It is calculated by tracking the prices of a basket of goods and services over time. 
+**HPI** is an indicator of the changes in the price of homes over time. It is calculated by comparing the price of homes in a particular area at different times. Whereas **Inflation** (measured by CPI), on the other hand, measures the overall increase in the prices of goods and services over time. 
 
 After analyzing our initial dataset, we discussed the other variables that we believe may play a role in our research, and decided that inflation should be the key indicator that we consider alongside what we initially gathered. Our data shows spikes in inflation that occur at the same time as the spikes we see in housing. In comparision for the Pandemic Era, we took inflation data from the 70's, suggesting that they are closely correlated. The same can be said for the graphs of inflation during the 2008 crash. Both show spikes shortly after the event and as inflation continues to rise, so does the cost of housing.
 
 **HPI vs Inflation Over Time**
-* Inflation and HPI often move in the same direction: Generally, when inflation rates rise, HPI tends to rise as well. This is because higher inflation rates tend to lead to higher interest rates, which in turn can increase demand for real estate as investors look for ways to protect their assets against inflation.
+* Analyzing HPI Vs CPI offers a ctirical understanding of how the housing market affects inflation. Looking at the trends of both Inflation and HPI in our plots, we found they move in the same direction and exhibits a strong correlation. Generally, when inflation rates rise, HPI tends to rise as well. This is because higher inflation rates tend to lead to higher interest rates, which in turn can increase demand for real estate as investors look for ways to protect their assets against inflation.
 
-While understanding the relationship between HPI and the Inflation, we decided to analyze the impact of housing prices on Mortgage rates and foreclosures as well as the relationship between mortgage rates, the home price Index growth rate, and foreclosures rates reflect the intricate dynamics of the housing market and broader economic factors. 
+* While understanding the relationship between HPI and the Inflation, we decided to analyze the impact of housing prices on Mortgage rates and foreclosures as well since these indicators reflect the intricate dynamics of the housing market and broader economic factors. This led to the question,
 
 **Does Mortgage Rates influence the HPI growth rate?**
 
-Definitely. As mortgage rates increase, borrowing becomes expensive, reducing house demand. This dampends HPI growth. On the other hand, lower mortgage rates reduce the cost of borrowing, making homes more affordable. This stimulates demand, leading to faster HPI growth. 
+Our plots showed they exhibit an inverse relationship. As mortgage rates increase, borrowing becomes expensive, reducing house demand. This dampens HPI growth. On the other hand, lower mortgage rates reduce the cost of borrowing, making homes more affordable. This stimulates demand, leading to faster HPI growth. Further we decided to take up our next question, 
 
 **Does the Home Price Index affect foreclosure rates?** 
+
+Our plots showed a strong negative correlation between these two indicators. 
+
 Declining home prices can lead to negative equity (When a homeownder owes more than their home's market value) increasing foreclosure rates. Borrowers in negative equity are less likely to refinance or sell. 
 
 As home value increases, homeownders build equity, reduceing foreclosure risks. Homeowners with equity can sell or refinance to avoid foreclosures
