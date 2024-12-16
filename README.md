@@ -56,8 +56,10 @@ After analyzing the above data and plots, we realized there were other data sour
 ![image](Resources/content/cpi_tru_infl.png)
 **CPI vs. S&P 500 Annual Returns**
 ![image](Resources/content/cpi_sp_annret.png)
-**CPI vs. S&P 500 Scatter plot relationship & correlation**
+**CPI vs. S&P 500 Scatter plot relationship**
 ![image](Resources/content/cpi_sp_scttr.png)
+**CPI & S&P 500 Correlation Heatmap**
+![image](Resources/content/cpi_sp_htmp.png)
 **The scatter plots explain the relationship and the Correlation**
 ![image](https://github.com/user-attachments/assets/5d50ef3e-e572-4f4b-875a-926ff62e09a5)
 ![image](https://github.com/user-attachments/assets/5951c1c9-4c6b-485d-9cab-53a8b7a8d7ab)
@@ -97,9 +99,9 @@ https://www.bls.gov/opub/mlr/2023/beyond-bls/what-caused-inflation-to-spike-afte
 
 * Analyzing CPI vs S&P 500 Performance brought to light that strong or weak stock performance doesnt exactly equate to high or low inflation... but sometimes it does. Looking at the trends of both S&P 500 Performance in our plots, we found that positive S&P 500 annual returns kept the inflation rate at the 2% target. 
 
-**Does inflation affect annual S&P 500 Performance?**
+**Is there a correlation between CPI and annual S&P 500 Performance?**
 
-* The trend seems to that the larger the rate of CPI increase, the worse the S&P 500 performs. This is not always true because some y-values are high even when the x-axis is large. Considering that most points do not follow or land near the regression, I believe a weak correlation exists between CPI % Change amd the S&P Annual % Performance.
+* The trend seems to that the larger the rate of CPI increase, the worse the S&P 500 performs. This is not always true because some y-values are high even when the x-axis is large. Considering that most points do not follow or land near the regression as well as a -0.30 correlation value, I believe that a weak negative correlation exists between CPI % amd S&P Annual % Performance.
 
 ### HPI vs Inflation
 To begin our investigation, we took a look at the consumer Price Index and Home price Index datasets. 
@@ -121,7 +123,7 @@ To begin our investigation, we took a look at the consumer Price Index and Home 
 
 * Declining home prices can lead to negative equity (When a homeownder owes more than their home's market value) increasing foreclosure rates. Borrowers in negative equity are less likely to refinance or sell. 
 
-* As home value increases, homeownders build equity, reduceing foreclosure risks. Homeowners with equity can sell or refinance to avoid foreclosures.
+* As home value increases, homeownders build equity, reducing foreclosure risks. Homeowners with equity can sell or refinance to avoid foreclosures.
 
 ## Challenges, Limitations and Future Development
 
