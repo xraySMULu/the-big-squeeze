@@ -1,4 +1,4 @@
-# The Big Squeeze: The Effect of Inflation on Housing and Unemployment
+# The Big Squeeze: The Effect of Inflation on Housing, Unemployment and the S&P 500
 
 ## **Project Overview**
 
@@ -30,7 +30,6 @@ The periods of inflation analyzed include:
   * Pre-Pandemic: 2015-2019
   * Post-Pandemic: 2020-2023
 
-
 ## Data Pre-Processing/Gathering Steps
 Our team accessed inflation data from Kaggle, the U.S. Bureau of Labor Statistics (BLS), and the U.S. Department of Labor to analyze trends and visualize key economic metrics.
 
@@ -51,36 +50,29 @@ After analyzing the above data and plots, we realized there were other data sour
 
 ## Visuals and Explanations
 
-Using line graphs, we plotted the Pre- and Post-Pandemic Inflation Rate, and also the true inflation percentage. Below is a sample of each. All plots can be found in 'data_analysis.ipynb'.
-
-![Consumer Price Index (CPI): Pre- and Post-Pandemic Inflation Rate](Resources/content/lc_cpi_govtavg.png)
-
-![Consumer Price Index (CPI): Pre- and Post-Pandemic True Inflation percentage](Resources/content/lc_cpi_percentchange.png)
-
-The scatter plots explains the relationship and the Correlation.
-
+**Consumer Price Index (CPI): Inflation Rate**
+![image](Resources/content/cpi_infl_rate.png)
+**Consumer Price Index (CPI): True Inflation percentage**
+![image](Resources/content/cpi_tru_infl.png)
+**CPI vs. S&P 500 Annual Returns**
+![image](Resources/content/cpi_sp_annret.png)
+**CPI vs. S&P 500 Scatter plot relationship & correlation**
+![image](Resources/content/cpi_sp_scttr.png)
+**The scatter plots explain the relationship and the Correlation**
 ![image](https://github.com/user-attachments/assets/5d50ef3e-e572-4f4b-875a-926ff62e09a5)
 ![image](https://github.com/user-attachments/assets/5951c1c9-4c6b-485d-9cab-53a8b7a8d7ab)
 ![image](https://github.com/user-attachments/assets/e52b372e-1eca-447f-9347-4692e99faff7)
 ![image](https://github.com/user-attachments/assets/f2b232c3-b54c-4c0f-b58d-2be741a2f4f2)
 ![image](https://github.com/user-attachments/assets/4da4e912-fd9d-4676-97cb-ceac5efa056e)
-
-[Laxmi plots]
-
-Overall Consumer Price Index (CPI) related to House hold costs
+**Overall Consumer Price Index (CPI) related to House hold costs**
 ![Consumer Price Index (CPI) Pre and Post-Pandemic House Related Costs](Resources/content/la_CPI_HouseRelated.png)
-
-CPI breadown of Renters and Owners
-
+**CPI breadown of Renters and Owners**
 ![CPI for Renters and Homeowners](Resources/content/la_CPI_Renters_Owners.png)
-
-Overall unemployment rate 
-
+**Overall unemployment rate**
 ![Unemployment Pre and Post-Pandemic](Resources/content/la_unemployment.png)
-
-Breakdown of heavily impacted job sectors
-
+**Breakdown of heavily impacted job sectors**
 ![Most inflated unemployment sectors Pre and Post-Pandemic](Resources/content/la_unemployment_sectors.png)
+
 [Xavier plots]
 
 ## Additional Explanations and Major Findings
