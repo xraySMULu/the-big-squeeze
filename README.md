@@ -17,9 +17,9 @@
   
   
 ### *Purpose of Use*   
-Our team decided to research the effects of inflation during during a Pre- and Post-Pandemic date range, investigating true inflation percentage, annual inflation against a 2% average, consumer price index (CPI) reflects house related costs, unemployment rate, Correlation between inflation and the Housing cost, the impact of Housing cost on Foreclosures & Mortgage rates,[7] and [8].
+Our team decided to research the effects of inflation during during a Pre- and Post-Pandemic date range, investigating true inflation percentage, annual inflation against a 2% average, inflation and the effects of S&P 500 performance, how the consumer price index (CPI) reflects house related costs, unemployment rate, Correlation between inflation and the Housing cost, the impact of Housing cost on Foreclosures & Mortgage rates,[7] and [8].
 
-The business question we hope to answer is: *if we can predict an increase or decline in housing costs when there is an inflationary period. Additionally, we hope to be able to answer if we can predict a rise or decline in the unemployment rate when there is an inflationary period.*
+The business question we hope to answer is: *Can we find a correlation or generate a prediction in analysing an increase or decline in housing costs? Can we find a correlation or generate a prediction in comparing S&P500 Performance. Can we find a correlation or generate a prediction in analysing housing costs compared to unemployment?*
 
 Our motivation for taking on this challenge is to find out if there is clear causation, or merely a correlation, between the effect of inflation on housing, unemployment and spending power.
 
@@ -33,10 +33,10 @@ The periods of inflation analyzed include:
 ## Data Pre-Processing/Gathering Steps
 Our team accessed inflation data from Kaggle, the U.S. Bureau of Labor Statistics (BLS), and the U.S. Department of Labor to analyze trends and visualize key economic metrics.
 
-* Consumer Price Index (CPI) Analysis
-We began by accessing CPI data from the U.S. Bureau of Labor Statistics. Using the Python pandas module along with the CPI library, we leveraged the Consumer Price Index for North America. The data underwent basic preprocessing, including defining the start range and specifying the number of periods in the range. To analyze inflation trends, we calculated a 2% annual inflation increase and plotted it alongside the CPI progression. Additionally, we plotted the actual inflation percentage against the average using the same dataframe. These dataframes were visualized with line graphs and a dynamic map created with Matplotlib.
+* CPI vs GDP 500 Performance Analysis
+We began by accessing CPI data from the U.S. Bureau of Labor Statistics. Using the Python pandas module along with the CPI library, we leveraged the Consumer Price Index for North America. The data underwent basic preprocessing, including defining the start range and specifying the number of periods in the range. To analyze inflation trends, we calculated a 2% annual inflation increase and plotted it alongside the CPI progression. Additionally, we plotted the actual inflation percentage against the average using the same dataframe. We then used the S&P 500 dataset and compare CPI Change percentages against S&P 500 Performance data. All dataframes were visualized with line graphs, scatter plots, bar charts and a dynamic map created with Matplotlib.
 
-* Time-Series Data Analysis
+* CPI vs HPI Analysis
 Next, we worked with time-series data in CSV format obtained from Federal Reserve Economic Data (FRED) and Kaggle. The dataset was cleaned by renaming and filtering columns for usability. We aligned timelines by slicing the dataframe and addressed missing data to ensure consistency. The data was normalized for comparison and visualized using scatter plots and heatmaps, generated with Matplotlib.
 
 * Pre- and Post-Pandemic Economic Trends
@@ -78,12 +78,28 @@ After analyzing the above data and plots, we realized there were other data sour
 ## Additional Explanations and Major Findings
 
 **Major findings**
+* The correlation between inflation and the S&P 500 Performance is weak. 
 * The correlation between inflation and housing is strong. 
-* THe correlation between inflation and the S&P 500 Performance is weak. 
 
-https://www.investopedia.com/ask/answers/correlation-inflation-houses.asp
-https://www.bankrate.com/real-estate/inflation-housing-market/#tips
-https://www.whitehouse.gov/cea/written-materials/2021/09/09/housing-prices-and-inflation/
+### CPI vs S&P 500
+
+In continuing our investigation, we analysed S&P 500 Performance datasets and CPI datasets
+
+**S&P 500** Performance has long been an excellent economic indicator of a good economy. With this, we explore the historical S&P 500 Performance compared to the inflation rate with a goal of finding a solid correlation.
+
+**How does the actual inflation rate compare to the 2% average annual target, and what factors contributed to deviations during these periods?**
+
+* The actual inflation rate is typically steady and compares closely with the 2% target. The 2% target is considered low enough to avoid price instability while still providing a buffer against deflation. The 2% target helps individuals and business plan for a future with a predictable price environment. Factors that caused a deviation in the inflation rate during the pandemic were the volitility of energy prices, backlog of work orders for goods and services caused by supply chain issues, and price changes in the auto-related industries.  
+
+https://www.bls.gov/opub/mlr/2023/beyond-bls/what-caused-inflation-to-spike-after-2020.htm
+
+**CPI vs Annual S&P 500 Performance**
+
+* Analyzing CPI vs S&P 500 Performance brought to light that strong or weak stock performance doesnt exactly equate to high or low inflation... but sometimes it does. Looking at the trends of both S&P 500 Performance in our plots, we found that positive S&P 500 annual returns kept the inflation rate at the 2% target. 
+
+**Does inflation affect annual S&P 500 Performance?**
+
+* The trend seems to that the larger the rate of CPI increase, the worse the S&P 500 performs. This is not always true because some y-values are high even when the x-axis is large. Considering that most points do not follow or land near the regression, I believe a weak correlation exists between CPI % Change amd the S&P Annual % Performance.
 
 ### HPI vs Inflation
 To begin our investigation, we took a look at the consumer Price Index and Home price Index datasets. 
@@ -97,36 +113,15 @@ To begin our investigation, we took a look at the consumer Price Index and Home 
 
 **Does Mortgage Rates influence the HPI growth rate?**
 
-Our plots showed they exhibit an inverse relationship. As mortgage rates increase, borrowing becomes expensive, reducing house demand. This dampens HPI growth. On the other hand, lower mortgage rates reduce the cost of borrowing, making homes more affordable. This stimulates demand, leading to faster HPI growth. Further we decided to take up our next question, 
+* Our plots showed they exhibit an inverse relationship. As mortgage rates increase, borrowing becomes expensive, reducing house demand. This dampens HPI growth. On the other hand, lower mortgage rates reduce the cost of borrowing, making homes more affordable. This stimulates demand, leading to faster HPI growth. Further we decided to take up our next question, 
 
 **Does the Home Price Index affect foreclosure rates?** 
 
-Our plots showed a strong negative correlation between these two indicators. 
+* Our plots showed a strong negative correlation between these two indicators. 
 
-Declining home prices can lead to negative equity (When a homeownder owes more than their home's market value) increasing foreclosure rates. Borrowers in negative equity are less likely to refinance or sell. 
+* Declining home prices can lead to negative equity (When a homeownder owes more than their home's market value) increasing foreclosure rates. Borrowers in negative equity are less likely to refinance or sell. 
 
-As home value increases, homeownders build equity, reduceing foreclosure risks. Homeowners with equity can sell or refinance to avoid foreclosures.
-
-### CPI vs S&P 500
-
-In continuing our investigation, we analysed S&P 500 Performance datasets and CPI datasets
-
-**S&P 500** Performance has long been an excellent economic indicator of a good economy. With this, we explore the historical S&P 500 Performance
-compared to the inflation rate with a goal of finding a solid correlation.
-
-**How does the actual inflation rate compare to the 2% average annual target, and what factors contributed to deviations during these periods?**
-
-The actual inflation rate is typically steady and compares closely with the 2% target. The 2% target is considered low enough to avoid price instability while still providing a buffer against deflation. The 2% target helps individuals and business plan for a future with a predictable price environment. Factors that caused a deviation in the inflation rate during the pandemic were the volitility of energy prices, backlog of work orders for goods and services caused by supply chain issues, and price changes in the auto-related industries.  
-
-https://www.bls.gov/opub/mlr/2023/beyond-bls/what-caused-inflation-to-spike-after-2020.htm
-
-**CPI vs Annual S&P 500 Performance**
-
-Analyzing CPI vs S&P 500 Performance brought to light that strong or weak stock performance doesnt exactly equate to high or low inflation... but sometimes it does. Looking at the trends of both S&P 500 Performance in our plots, we found that positive S&P 500 annual returns kept the inflation rate at the 2% target. 
-
-**Does inflation affect annual S&P 500 Performance**
-
-The trend seems to that the larger the rate of CPI increase, the worse the S&P 500 performs. This is not always true because some y-values are high even when the x-axis is large. Considering that most points do not follow or land near the regression, I believe a weak correlation exists between CPI % Change amd the S&P Annual % Performance.
+* As home value increases, homeownders build equity, reduceing foreclosure risks. Homeowners with equity can sell or refinance to avoid foreclosures.
 
 ## Challenges, Limitations and Future Development
 
@@ -166,8 +161,7 @@ One consideration that would make this all more clear, is ?
   
 
 ## Team Members:
-
-* Madhavi Nithianandam
-* Xavier Figueroa
 * Laxmi Atluri
+* Xavier Figueroa
 * Chris Gilbert (Project Manager)
+* Madhavi Nithianandam
