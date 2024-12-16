@@ -77,17 +77,18 @@ After analyzing the above data and plots, we realized there were other data sour
 
 ## Additional Explanations and Major Findings
 
-**Our primary finding is that the correlation between inflation and housing is strong.** 
+**Major findings**
+* The correlation between inflation and housing is strong. 
+* THe correlation between inflation and the S&P 500 Performance is weak. 
 
 https://www.investopedia.com/ask/answers/correlation-inflation-houses.asp
 https://www.bankrate.com/real-estate/inflation-housing-market/#tips
 https://www.whitehouse.gov/cea/written-materials/2021/09/09/housing-prices-and-inflation/
 
+### HPI vs Inflation
 To begin our investigation, we took a look at the consumer Price Index and Home price Index datasets. 
 
 **HPI** is an indicator of the changes in the price of homes over time. It is calculated by comparing the price of homes in a particular area at different times. Whereas **Inflation** (measured by CPI), on the other hand, measures the overall increase in the prices of goods and services over time. 
-
-After analyzing our initial dataset, we discussed the other variables that we believe may play a role in our research, and decided that inflation should be the key indicator that we consider alongside what we initially gathered. Our data shows spikes in inflation that occur at the same time as the spikes we see in housing. In comparision for the Pandemic Era, we took inflation data from the 70's, suggesting that they are closely correlated. The same can be said for the graphs of inflation during the 2008 crash. Both show spikes shortly after the event and as inflation continues to rise, so does the cost of housing.
 
 **HPI vs Inflation Over Time**
 * Analyzing HPI Vs CPI offers a ctirical understanding of how the housing market affects inflation. Looking at the trends of both Inflation and HPI in our plots, we found they move in the same direction and exhibits a strong correlation. Generally, when inflation rates rise, HPI tends to rise as well. This is because higher inflation rates tend to lead to higher interest rates, which in turn can increase demand for real estate as investors look for ways to protect their assets against inflation.
@@ -104,13 +105,28 @@ Our plots showed a strong negative correlation between these two indicators.
 
 Declining home prices can lead to negative equity (When a homeownder owes more than their home's market value) increasing foreclosure rates. Borrowers in negative equity are less likely to refinance or sell. 
 
-As home value increases, homeownders build equity, reduceing foreclosure risks. Homeowners with equity can sell or refinance to avoid foreclosures
+As home value increases, homeownders build equity, reduceing foreclosure risks. Homeowners with equity can sell or refinance to avoid foreclosures.
 
-After analyzing inflation and housing, we decided to direct our attention towards housing and umeployment rates during ?
+### CPI vs S&P 500
 
-Our most interesting find comes when ?
+In continuing our investigation, we analysed S&P 500 Performance datasets and CPI datasets
 
-We suspect the main culprit for our anomaly to be ?
+**S&P 500** Performance has long been an excellent economic indicator of a good economy. With this, we explore the historical S&P 500 Performance
+compared to the inflation rate with a goal of finding a solid correlation.
+
+**How does the actual inflation rate compare to the 2% average annual target, and what factors contributed to deviations during these periods?**
+
+The actual inflation rate is typically steady and compares closely with the 2% target. The 2% target is considered low enough to avoid price instability while still providing a buffer against deflation. The 2% target helps individuals and business plan for a future with a predictable price environment. Factors that caused a deviation in the inflation rate during the pandemic were the volitility of energy prices, backlog of work orders for goods and services caused by supply chain issues, and price changes in the auto-related industries.  
+
+https://www.bls.gov/opub/mlr/2023/beyond-bls/what-caused-inflation-to-spike-after-2020.htm
+
+**CPI vs Annual S&P 500 Performance**
+
+Analyzing CPI vs S&P 500 Performance brought to light that strong or weak stock performance doesnt exactly equate to high or low inflation... but sometimes it does. Looking at the trends of both S&P 500 Performance in our plots, we found that positive S&P 500 annual returns kept the inflation rate at the 2% target. 
+
+**Does inflation affect annual S&P 500 Performance**
+
+The trend seems to that the larger the rate of CPI increase, the worse the S&P 500 performs. This is not always true because some y-values are high even when the x-axis is large. Considering that most points do not follow or land near the regression, I believe a weak correlation exists between CPI % Change amd the S&P Annual % Performance.
 
 ## Challenges, Limitations and Future Development
 
@@ -143,6 +159,10 @@ One consideration that would make this all more clear, is ?
 * https://fastercapital.com/content/House-Price-Index--HPI--vs--Inflation--Understanding-the.html
 * chatgpt.com
 * https://fred.stlouisfed.org/series/CSUSHPISA
+* https://finance.yahoo.com/ - SP500
+* https://fred.stlouisfed.org/seriesBeta/FPCPITOTLZGUSA - CPI yearly
+* https://fred.stlouisfed.org/seriesBeta/CPIAUCSL - CPI monthly
+* https://curvo.eu/backtest/en/market-index/sp-500?currency=eur 
   
 
 ## Team Members:
