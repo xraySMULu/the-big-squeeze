@@ -24,9 +24,7 @@ Our team decided to research the effects of inflation during during a Pre- and P
 
 The business question we hope to answer is: *Can we find a correlation or generate a prediction in analysing an increase or decline in housing costs? Can we find a correlation or generate a prediction in comparing S&P500 Performance. Can we find a correlation or generate a prediction in analysing housing costs compared to unemployment?*
 
-Our motivation for taking on this challenge is to find out if there is clear causation, or merely a correlation, between the effect of inflation on housing, unemployment and spending power.
-
-We hope to find this data using the cost of housing prices from Data.gov, and the effect CPI and unemployment rates from the U.S. Department of Labor.
+Our motivation for taking on this challenge is to find out if there is clear causation, or merely a correlation, between the effect of inflation on housing, unemployment and the S&P 500.
 
 The periods of inflation analyzed include:
 * Data Dates: 
