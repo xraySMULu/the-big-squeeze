@@ -34,20 +34,16 @@ The periods of inflation analyzed include:
 Our team accessed inflation data from Kaggle, the U.S. Bureau of Labor Statistics (BLS), and the U.S. Department of Labor to analyze trends and visualize key economic metrics.
 
 * CPI vs GDP 500 Performance Analysis
-- We began by accessing CPI data from the U.S. Bureau of Labor Statistics. Using the Python pandas module along with the CPI library, we leveraged the Consumer Price Index for North America. The data underwent basic preprocessing, including defining the start range and specifying the number of periods in the range. To analyze inflation trends, we calculated a 2% annual inflation increase and plotted it alongside the CPI progression. Additionally, we plotted the actual inflation percentage against the average using the same dataframe. We then used the S&P 500 dataset and compare CPI Change percentages against S&P 500 Performance data. All dataframes were visualized with line graphs, scatter plots, bar charts and a dynamic map created with Matplotlib.
+  * We began by accessing CPI data from the U.S. Bureau of Labor Statistics. Using the Python pandas module along with the CPI library, we leveraged the Consumer Price Index for North America. The data underwent basic preprocessing, including defining the start range and specifying the number of periods in the range. To analyze inflation trends, we calculated a 2% annual inflation increase and plotted it alongside the CPI progression. Additionally, we plotted the actual inflation percentage against the average using the same dataframe. We then used the S&P 500 dataset and compare CPI Change percentages against S&P 500 Performance data. All dataframes were visualized with line graphs, scatter plots, bar charts and a dynamic map created with Matplotlib.
 
 * CPI vs HPI Analysis
-- Next, we worked with time-series data in CSV format obtained from Federal Reserve Economic Data (FRED) and Kaggle. The dataset was cleaned by renaming and filtering columns for usability. We aligned timelines by slicing the dataframe and addressed missing data to ensure consistency. The data was normalized for comparison and visualized using scatter plots and heatmaps, generated with Matplotlib.
+  * Next, we worked with time-series data in CSV format obtained from Federal Reserve Economic Data (FRED) and Kaggle. The dataset was cleaned by renaming and filtering columns for usability. We aligned timelines by slicing the dataframe and addressed missing data to ensure consistency. The data was normalized for comparison and visualized using scatter plots and heatmaps, generated with Matplotlib.
 
 * Pre- and Post-Pandemic Economic Trends
-- We also accessed data from the Bureau of Labor Statistics, which offers yearly statistics via its public API and downloadable datasets. This analysis focused on two distinct time periods: pre-pandemic (2015–2019) and post-pandemic (2020–2024). Key metrics included the Housing CPI, reflecting housing-related expenses, and the Unemployment Rate, measuring the percentage of unemployed individuals in the labor force. The data was retrieved using the BLS API with specific series IDs and time ranges or downloaded as CSV or Excel files. These trends were analyzed to highlight housing inflation and changes in unemployment, visualized using line and pie charts.
-
-Through this project, we aimed to process, analyze, and visualize critical economic data to better understand inflation and unemployment trends before and after the pandemic.
+  * We also accessed data from the Bureau of Labor Statistics, which offers yearly statistics via its public API and downloadable datasets. This analysis focused on two distinct time periods: pre-pandemic (2015–2019) and post-pandemic (2020–2024). Key metrics included the Housing CPI, reflecting housing-related expenses, and the Unemployment Rate, measuring the percentage of unemployed individuals in the labor force. The data was retrieved using the BLS API with specific series IDs and time ranges or downloaded as CSV or Excel files. These trends were analyzed to highlight housing inflation and changes in unemployment, visualized using line and pie charts.
 
 * CPI vs HPI vs Unemployment vs Mortgage Trends
-- We gathered our time-series data from both Kaggle and the Federal Reserve of Economic Data in CSV format for it to be easier to read into our dataframes. After reading in the CSV files, we cleaned up the data by renaming colums as well as converting the "Date" columns into datetime format. We also filtered the columns to focus on the specfic data we wanted to look at and compare. We then sliced the dataframe to go along the same timelines. After all the data has been refined, it was graphed into visualizations. 
-
-After analyzing the above data and plots, we realized there were other data sources needed to as a supplement. As a result, we obtained references that backed our theories. 
+  * We gathered our time-series data from both Kaggle and the Federal Reserve of Economic Data in CSV format for it to be easier to read into our dataframes. After reading in the CSV files, we cleaned up the data by renaming colums as well as converting the "Date" columns into datetime format. We also filtered the columns to focus on the specfic data we wanted to look at and compare. We then sliced the dataframe to go along the same timelines. After all the data has been refined, it was graphed into visualizations. 
 
 ## Visuals and Explanations
 **Consumer Price Index (CPI): Inflation Rate**
@@ -128,26 +124,20 @@ To begin our investigation, we took a look at the consumer Price Index and Home 
 
 ### Impact Of Inflation On Housing And Unemployment
 
-* Housing Costs: Inflation significantly increased home prices, rents, and maintenance costs, reducing affordability.
-  
+* Housing Costs: Inflation significantly increased home prices, rents, and maintenance costs, reducing affordability.  
 * Unemployment: Inflation led to sector-specific job losses and increased wage pressures, affecting overall employment stability.
   
 ### CPI vs HPI vs Unemployment vs Mortgage
 
 * In finalizing our investigation we decided to see if there were any correlations between the 4 major things we discussed.
-
 * CPI which is our inflation, HPI which covers the price of homes, Unemployment both pre and post pandemic, and Mortgage rates on houses over your typical 30 year plan.
 
 **Is there a correlation between these 4?**
 
 * Upom further investigation is seems that CPI, HPI, and Unemployment have some type of correlation with Mortgage rates. Both postive and negative correlations were found.
-
 * CPI and HPI have a strong positive correlation with Mortgage rates.
-
 * As inflation rises, homes prices follow which leads to an even higher Mortgage rate than normal.
-
 * Unemployment has a strong negative correlation with Mortgage rates.
-
 * As Unemployment goes down so do Mortgage rates.
 
 ## Additional questions that surfaced and plan for future development
