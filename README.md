@@ -44,6 +44,7 @@ We also accessed data from the Bureau of Labor Statistics, which offers yearly s
 
 Through this project, we aimed to process, analyze, and visualize critical economic data to better understand inflation and unemployment trends before and after the pandemic.
 
+* CPI vs HPI vs Unemployment vs Mortgage Trends
 We gathered our time-series data from both Kaggle and the Federal Reserve of Economic Data in CSV format for it to be easier to read into our dataframes. After reading in the CSV files, we cleaned up the data by renaming colums as well as converting the "Date" columns into datetime format. We also filtered the columns to focus on the specfic data we wanted to look at and compare. We then sliced the dataframe to go along the same timelines. After all the data has been refined, it was graphed into visualizations. 
 
 After analyzing the above data and plots, we realized there were other data sources needed to as a supplement. As a result, we obtained references that backed our theories. 
@@ -74,8 +75,8 @@ After analyzing the above data and plots, we realized there were other data sour
 ![Unemployment Pre and Post-Pandemic](Resources/content/la_unemployment.png)
 **Breakdown of heavily impacted job sectors**
 ![Most inflated unemployment sectors Pre and Post-Pandemic](Resources/content/la_unemployment_sectors.png)
-
-[Xavier plots]
+**Correlation between cpi, hpi, unemployment, and mortgage**
+ ![Correlation Heatmap](Resources/content/cpi_hpi_unem_mort.png)
 
 ## Additional Explanations and Major Findings
 
