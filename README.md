@@ -61,11 +61,11 @@ After analyzing the above data and plots, we realized there were other data sour
 **CPI & S&P 500 Correlation Heatmap**
 ![image](Resources/content/cpi_sp_htmp.png)
 **The scatter plots explain the relationship and the Correlation**
-![image](https://github.com/user-attachments/assets/5d50ef3e-e572-4f4b-875a-926ff62e09a5)
-![image](https://github.com/user-attachments/assets/5951c1c9-4c6b-485d-9cab-53a8b7a8d7ab)
-![image](https://github.com/user-attachments/assets/e52b372e-1eca-447f-9347-4692e99faff7)
-![image](https://github.com/user-attachments/assets/f2b232c3-b54c-4c0f-b58d-2be741a2f4f2)
-![image](https://github.com/user-attachments/assets/4da4e912-fd9d-4676-97cb-ceac5efa056e)
+
+![image](Resources/content/HPI_Vs_CPI.png)
+![image](Resources/content/hpi_foreclosures.png)
+![image](Resources/content/hpi_mortgage_rates.png)
+
 **Overall Consumer Price Index (CPI) related to House hold costs**
 ![Consumer Price Index (CPI) Pre and Post-Pandemic House Related Costs](Resources/content/la_CPI_HouseRelated.png)
 **CPI breadown of Renters and Owners**
