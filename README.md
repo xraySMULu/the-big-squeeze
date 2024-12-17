@@ -126,6 +126,24 @@ To begin our investigation, we took a look at the consumer Price Index and Home 
 
 * As home value increases, homeownders build equity, reducing foreclosure risks. Homeowners with equity can sell or refinance to avoid foreclosures.
 
+**CPI vs HPI vs Unemployment vs Mortgage**
+
+* In finalizing our investigation we decided to see if there were any correlations between the 4 major things we discussed.
+
+* CPI which is our inflation, HPI which covers the price of homes, Unemployment both pre and post pandemic, and Mortgage rates on houses over your typical 30 year plan.
+
+**Is there a correlation between these 4**
+
+* Upom further investigation is seems that CPI, HPI, and Unemployment have some type of correlation with Mortgage rates. Both postive and negative correlations were found.
+
+* CPI and HPI have a strong positive correlation with Mortgage rates.
+
+* As inflation rises, homes prices follow which leads to an even higher Mortgage rate than normal.
+
+* Unemployment has a strong negative correlation with Mortgage rates.
+
+* As Unemployment goes down so do Mortgage rates.
+
 ## Challenges, Limitations and Future Development
 
 The initial challenge was ?
@@ -160,4 +178,11 @@ One consideration that would make this all more clear, is ?
 * https://finance.yahoo.com/ - SP500
 * https://fred.stlouisfed.org/seriesBeta/FPCPITOTLZGUSA - CPI yearly
 * https://fred.stlouisfed.org/seriesBeta/CPIAUCSL - CPI monthly
-* https://curvo.eu
+* https://curvo.eu/backtest/en/market-index/sp-500?currency=eur 
+  
+
+## Team Members:
+* Laxmi Atluri
+* Xavier Figueroa
+* Chris Gilbert (Project Manager)
+* Madhavi Nithianandam
