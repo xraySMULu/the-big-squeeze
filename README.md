@@ -49,12 +49,8 @@ Our team accessed inflation data from Kaggle, the U.S. Bureau of Labor Statistic
 ## Visuals and Explanations
 **Consumer Price Index (CPI): Inflation Rate**
 ![image](Resources/content/cpi_infl_rate.png)
-**Consumer Price Index (CPI): True Inflation percentage**
-![image](Resources/content/cpi_tru_infl.png)
 **CPI vs. S&P 500 Annual Returns**
 ![image](Resources/content/cpi_sp_annret.png)
-**CPI vs. S&P 500 Scatter plot relationship**
-![image](Resources/content/cpi_sp_scttr.png)
 **CPI & S&P 500 Correlation Heatmap**
 ![image](Resources/content/cpi_sp_htmp.png)
 **HPI vs. CPI**
