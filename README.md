@@ -61,10 +61,12 @@ After analyzing the above data and plots, we realized there were other data sour
 ![image](Resources/content/cpi_sp_scttr.png)
 **CPI & S&P 500 Correlation Heatmap**
 ![image](Resources/content/cpi_sp_htmp.png)
-**The scatter plots explain the relationship and the Correlation**
 
+**HPI vs. CPI**
 ![image](Resources/content/HPI_Vs_CPI.png)
+**HPI Vs Foreclosures**
 ![image](Resources/content/hpi_foreclosures.png)
+**HPI vs.Mortgasge rates**
 ![image](Resources/content/hpi_mortgage_rates.png)
 
 **Overall Consumer Price Index (CPI) related to House hold costs**
@@ -110,7 +112,7 @@ To begin our investigation, we took a look at the consumer Price Index and Home 
 **HPI** is an indicator of the changes in the price of homes over time. It is calculated by comparing the price of homes in a particular area at different times. Whereas **Inflation** (measured by CPI), on the other hand, measures the overall increase in the prices of goods and services over time. 
 
 **HPI vs Inflation Over Time**
-* Analyzing HPI Vs CPI offers a ctirical understanding of how the housing market affects inflation. Looking at the trends of both Inflation and HPI in our plots, we found they move in the same direction and exhibits a strong correlation. Generally, when inflation rates rise, HPI tends to rise as well. This is because higher inflation rates tend to lead to higher interest rates, which in turn can increase demand for real estate as investors look for ways to protect their assets against inflation.
+* Analyzing HPI Vs CPI offers a critical understanding of how the housing market affects inflation. Looking at the trends of both Inflation and HPI in our plots, we found they move in the same direction and exhibits a strong correlation. Generally, when inflation rates rise, HPI tends to rise as well. This is because higher inflation rates tend to lead to higher interest rates, which in turn can increase demand for real estate as investors look for ways to protect their assets against inflation.
 
 * While understanding the relationship between HPI and the Inflation, we decided to analyze the impact of housing prices on Mortgage rates and foreclosures as well since these indicators reflect the intricate dynamics of the housing market and broader economic factors. This led to the question,
 
