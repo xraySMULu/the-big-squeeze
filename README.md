@@ -11,10 +11,13 @@
 * `matplotlib == 3.5.1`
 
 ### *Files Navigation*
-* Resources: Directory containing all images of plots created in Jupyter Notebook, and original csv data files
-* Data: Directory containing all of the data sources used by the code
-* `data_analysis.ipynb`: Data research using csv files, modules and API connections, and final dataframes and all graphs
-  
+* Code: Code - Directory containing all of the the code
+  * CPI vs GDP 500 Performance Analysis - Navigate to 'Code/cg_analysis.ipynb'
+  * CPI vs HPI Analysis - Navigate to 'Code/mn_analysis.ipynb'
+  * Pre- and Post-Pandemic Economic Trends - Navigate to 'Code/la_analysis.ipynb'
+  * CPI vs HPI vs Unemployment vs Mortgage Trends - Navigate to 'Code/xf_analysis.ipynb'
+* Content: Resources/content - Directory containing all images of plots created in Jupyter Notebook
+* Data: Resources/Data - Directory containing all of the csv files used by the code
   
 ### *Purpose of Use*   
 Our team decided to research the effects of inflation during during a Pre- and Post-Pandemic date range, investigating true inflation percentage, annual inflation against a 2% average, inflation and the effects of S&P 500 performance, how the consumer price index (CPI) reflects house related costs, unemployment rate, correlation between inflation and the Housing cost, the impact of Housing cost on Foreclosures & Mortgage rates and the overall correlation between these indicators.
