@@ -160,11 +160,4 @@ One consideration that would make this all more clear, is ?
 * https://finance.yahoo.com/ - SP500
 * https://fred.stlouisfed.org/seriesBeta/FPCPITOTLZGUSA - CPI yearly
 * https://fred.stlouisfed.org/seriesBeta/CPIAUCSL - CPI monthly
-* https://curvo.eu/backtest/en/market-index/sp-500?currency=eur 
-  
-
-## Team Members:
-* Laxmi Atluri
-* Xavier Figueroa
-* Chris Gilbert (Project Manager)
-* Madhavi Nithianandam
+* https://curvo.eu
