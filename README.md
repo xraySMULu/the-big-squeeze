@@ -71,7 +71,7 @@ After analyzing the above data and plots, we realized there were other data sour
 
 **Overall Consumer Price Index (CPI) related to House hold costs**
 ![Consumer Price Index (CPI) Pre and Post-Pandemic House Related Costs](Resources/content/la_CPI_HouseRelated.png)
-**CPI breadown of Renters and Owners**
+**CPI breakdown of Renters and Owners**
 ![CPI for Renters and Homeowners](Resources/content/la_CPI_Renters_Owners.png)
 **Overall unemployment rate**
 ![Unemployment Pre and Post-Pandemic](Resources/content/la_unemployment.png)
