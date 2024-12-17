@@ -74,7 +74,8 @@ Our team accessed inflation data from Kaggle, the U.S. Bureau of Labor Statistic
 
 **Major findings**
 * The correlation between inflation and the S&P 500 Performance is weak. 
-* The correlation between inflation and housing is strong.
+* The correlation between inflation and housing is strong positive.
+* The correlation between housing and foreclosures is strong negative.
 * Inflation simultaneously challenges housing affordability and job security, impacting overall economic well-being.
   
 ### CPI vs S&P 500
@@ -115,9 +116,9 @@ To begin our investigation, we took a look at the consumer Price Index and Home 
 
 * Our plots showed a strong negative correlation between these two indicators. 
 
-* Declining home prices can lead to negative equity (When a homeownder owes more than their home's market value) increasing foreclosure rates. Borrowers in negative equity are less likely to refinance or sell. 
+* Declining home prices can lead to negative equity (When a homeowner owes more than their home's market value) increasing foreclosure rates. Borrowers in negative equity are less likely to refinance or sell. 
 
-* As home value increases, homeownders build equity, reducing foreclosure risks. Homeowners with equity can sell or refinance to avoid foreclosures.
+* As home value increases, homeowners build equity, reducing foreclosure risks. Homeowners with equity can sell or refinance to avoid foreclosures.
 
 ### Impact Of Inflation On Housing And Unemployment
 
@@ -140,7 +141,7 @@ To begin our investigation, we took a look at the consumer Price Index and Home 
 ## Additional questions that surfaced and plan for future development
 
 * Include more control variables for analysis 
-* Use rolling windows to analyze how the relationship evolves   over time. 
+* Use rolling windows to analyze how the relationship evolves over time. 
 * Apply advanced models to test predictive relationships. 
 * Implement lag effects.
 
