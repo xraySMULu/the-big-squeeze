@@ -128,6 +128,12 @@ To begin our investigation, we took a look at the consumer Price Index and Home 
 
 * As home value increases, homeownders build equity, reducing foreclosure risks. Homeowners with equity can sell or refinance to avoid foreclosures.
 
+**Impact Of Inflation On Housing And Unemployment**
+
+* Housing Costs: Inflation significantly increased home prices, rents, and maintenance costs, reducing affordability.
+  
+* Unemployment: Inflation led to sector-specific job losses and increased wage pressures, affecting overall employment stability.
+  
 ## Challenges, Limitations and Future Development
 
 The initial challenge was ?
