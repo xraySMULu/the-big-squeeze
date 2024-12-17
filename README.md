@@ -84,8 +84,9 @@ After analyzing the above data and plots, we realized there were other data sour
 
 **Major findings**
 * The correlation between inflation and the S&P 500 Performance is weak. 
-* The correlation between inflation and housing is strong. 
-
+* The correlation between inflation and housing is strong.
+* Inflation simultaneously challenges housing affordability and job security, impacting overall economic well-being.
+  
 ### CPI vs S&P 500
 
 In continuing our investigation, we analysed S&P 500 Performance datasets and CPI datasets
