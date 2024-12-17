@@ -17,7 +17,7 @@
   
   
 ### *Purpose of Use*   
-Our team decided to research the effects of inflation during during a Pre- and Post-Pandemic date range, investigating true inflation percentage, annual inflation against a 2% average, inflation and the effects of S&P 500 performance, how the consumer price index (CPI) reflects house related costs, unemployment rate, Correlation between inflation and the Housing cost, the impact of Housing cost on Foreclosures & Mortgage rates,[7] and [8].
+Our team decided to research the effects of inflation during during a Pre- and Post-Pandemic date range, investigating true inflation percentage, annual inflation against a 2% average, inflation and the effects of S&P 500 performance, how the consumer price index (CPI) reflects house related costs, unemployment rate, correlation between inflation and the Housing cost, the impact of Housing cost on Foreclosures & Mortgage rates and the overall correlation between these indicators.
 
 The business question we hope to answer is: *Can we find a correlation or generate a prediction in analysing an increase or decline in housing costs? Can we find a correlation or generate a prediction in comparing S&P500 Performance. Can we find a correlation or generate a prediction in analysing housing costs compared to unemployment?*
 
@@ -135,23 +135,19 @@ To begin our investigation, we took a look at the consumer Price Index and Home 
   
 * Unemployment: Inflation led to sector-specific job losses and increased wage pressures, affecting overall employment stability.
   
-## Challenges, Limitations and Future Development
+## Additional questions that surfaced and plan for future development
 
-The initial challenge was ?
+* Include more control variables for analysis 
+* Use rolling windows to analyze how the relationship evolves   over time. 
+* Apply advanced models to test predictive relationships. 
+* Implement lag effects.
 
-After gathering and plotting all of the data, the limitations of this project are that ?
-
-Limitations are clear pointers to future development. The relationship between all these factors is something that we could look at in the future. Now, if we are able to predict some of the future based on our current analysis, we could say that ?
 
 ## Conclusion
 
-While ? may have had an effect on the ? we studied, we can/cannot reasonably conclude that ?
+This research explored the intricate relationships among inflation, housing markets, and economic indicators, revealing significant insights into their dynamics. The correlation analysis between the Home Price Index (HPI) and CPI uncovered a satrong relationship.
 
-Understanding the role of inflation and interest rates in our data allowed us to ask ourselves "What other variables could be at play here?" Through further research and discussion we came up with: easing of COVID-19 restrictions, supply chain distruptions caused by the pandemic, America's level of involvement in each war, the seasonality of gas prices, the 2008 recession, and the political affliation of the sitting president are all potential variables that could affect what we are seeing. 
-
-Ultimately, we gathered enough data to begin answering our business questions, and determined that predicting ?
-
-One consideration that would make this all more clear, is ?
+The findings of this research emphasize the interconnected nature of inflation, mortgage rates, and housing market dynamics. Policymakers and economic stakeholders must recognize these relationships when designing interventions to ensure financial stability. Incorporating housing-specific metrics like HPI alongside broader inflation measures such as CPI can provide a more nuanced understanding of economic conditions.
 
 ## References
 
