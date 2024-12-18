@@ -130,11 +130,16 @@ To begin our investigation, we took a look at the consumer Price Index and Home 
 
 **Is there a correlation between these 4?**
 
-* Upom further investigation is seems that CPI, HPI, and Unemployment have some type of correlation with Mortgage rates. Both postive and negative correlations were found.
+* Upon further investigation is seems that CPI, HPI, and Unemployment have some type of correlation with Mortgage rates. Both postive and negative correlations were found.
 * CPI and HPI have a strong positive correlation with Mortgage rates.
 * As inflation rises, homes prices follow which leads to an even higher Mortgage rate than normal.
 * Unemployment has a strong negative correlation with Mortgage rates.
 * As Unemployment goes down so do Mortgage rates.
+
+**Boxplot**
+
+* Mortgage rates seemed to be the only data range that had an outlier. 
+* The reason for this is because there was a spike in mortgage rates and being that the data is pre and post pandemic we can estimate that this was around the time that inflation rose and mortgage rates rose alongside to combat inflation.
 
 ## Additional questions that surfaced and plan for future development
 
