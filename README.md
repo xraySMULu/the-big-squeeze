@@ -10,7 +10,7 @@
 * `hvplot == 0.7.3`
 * `matplotlib == 3.5.1`
 
-### *File Navigation, Installation & Usage *
+### File Navigation, Installation & Usage
 **File Navigation**
 * Code: Code - Directory containing all of the the code
   * CPI vs S&P 500 Performance Analysis 
@@ -26,9 +26,9 @@
 * Data: 
   * Navigate to ![Resources/Content](Resources/data) - Directory containing all of the csv files used by the code
 **Installation**
-* Clone the repository from here.. ![Resources/Content](https://github.com/xraySMULu/the-big-squeeze.git) 
+  * Clone the repository from here.. ![Resources/Content](https://github.com/xraySMULu/the-big-squeeze.git) 
 **Usage**
-* Open Jupyter notebook, click 'Run all' to execute all code blocks.
+  * Open Jupyter notebook, click 'Run all' to execute all code blocks.
 
 ### *Purpose of Use*   
 Our team decided to research the effects of inflation during during a Pre- and Post-Pandemic date range, investigating true inflation percentage, annual inflation against a 2% average, inflation and the effects of S&P 500 performance, how the consumer price index (CPI) reflects house related costs, unemployment rate, correlation between inflation and the Housing cost, the impact of Housing cost on Foreclosures & Mortgage rates and the overall correlation between these indicators.
