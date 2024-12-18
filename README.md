@@ -16,20 +16,20 @@
 
 * Code: Code - Directory containing all of the the code
   * CPI vs S&P 500 Performance Analysis 
-    * Navigate to ![Link to CPI vs S&P 500 Analysis](Code/cg_analysis.ipynb)    
+    * Navigate to [Link to CPI vs S&P 500 Analysis](Code/cg_analysis.ipynb)    
   * CPI vs HPI Analysis
-    * Navigate to ![Link to CPI vs HPI Analysis](Code/mn_analysis.ipynb)
+    * Navigate to [Link to CPI vs HPI Analysis](Code/mn_analysis.ipynb)
   * Pre- and Post-Pandemic Economic Trends
-    * Navigate to ![Link to Pre- and Post-Pandemic Economic Trends](Code/la_analysis.ipynb)
+    * Navigate to [Link to Pre- and Post-Pandemic Economic Trends](Code/la_analysis.ipynb)
   * CPI vs HPI vs Unemployment vs Mortgage Trends 
-    * Navigate to ![Link to CPI vs HPI vs Unemployment vs Mortgage Trends](Code/xf_analysis.ipynb)
+    * Navigate to [Link to CPI vs HPI vs Unemployment vs Mortgage Trends](Code/xf_analysis.ipynb)
 * Content: 
-  * Navigate to ![](Resources/content) - Directory containing all images of plots created in Jupyter Notebook and demos.
+  * Navigate to [link](Resources/content) - Directory containing all images of plots created in Jupyter Notebook and demos.
 * Data: 
-  * Navigate to ![](Resources/data) - Directory containing all of the csv files used by the code
+  * Navigate to [link](Resources/data) - Directory containing all of the csv files used by the code
 
 **Installation**
-  * Clone the repository from here.. ![](https://github.com/xraySMULu/the-big-squeeze.git) 
+  * Clone the repository from here.. [Clone Me](https://github.com/xraySMULu/the-big-squeeze.git) 
 
 **Usage**
   * Open Jupyter notebook, click 'Run all' to execute all code blocks.
