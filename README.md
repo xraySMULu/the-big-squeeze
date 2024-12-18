@@ -66,28 +66,28 @@ Our team accessed inflation data from Kaggle, the U.S. Bureau of Labor Statistic
 
 **Consumer Price Index (CPI): Inflation Rate**
 ![image](Resources/content/cpi_infl_rate.png)
-  * The inflation rate during the -Pre and -Post pandemic period.
+The inflation rate during the -Pre and -Post pandemic period.
 **CPI vs. S&P 500 Annual Returns**
 ![image](Resources/content/cpi_sp_annret.png)
-  * The analysis of CPI vs. S&P 500 Annual Returns.
+The analysis of CPI vs. S&P 500 Annual Returns.
 **HPI vs. CPI**
 ![image](Resources/content/HPI_Vs_CPI.png)
-  * The analysis of HPI vs CPI.
+The analysis of HPI vs CPI.
 **HPI vs Mortgage rates**
 ![image](Resources/content/hpi_mortgage_rates.png)
-  * The analysis of HPI vs Mortgage Rates
+The analysis of HPI vs Mortgage Rates
 **Overall Consumer Price Index (CPI) related to House hold costs**
 ![Consumer Price Index (CPI) Pre and Post-Pandemic House Related Costs](Resources/content/la_CPI_HouseRelated.png)
-  * The trends of CPI vs Household costs
+The trends of CPI vs Household costs
 **CPI breakdown of Renters and Owners**
 ![CPI for Renters and Homeowners](Resources/content/la_CPI_Renters_Owners.png)
-  * The trends of CPI vs Renters and Owners
+The trends of CPI vs Renters and Owners
 **Breakdown of heavily impacted job sectors**
 ![Most inflated unemployment sectors Pre and Post-Pandemic](Resources/content/la_unemployment_sectors.png)
-  * The trends of heavily impacted job sectors
+The trends of heavily impacted job sectors
 **Correlation between cpi, hpi, unemployment, and mortgage**
 ![Correlation Heatmap](Resources/content/cpi_hpi_unem_mort.png)
-  * The correlation between cpi, hpi, unemployment, and mortgage
+The correlation between cpi, hpi, unemployment, and mortgage
 
 ## Additional Explanations and Major Findings
 
