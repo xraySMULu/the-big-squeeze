@@ -22,7 +22,7 @@
 ### *Purpose of Use*   
 Our team decided to research the effects of inflation during during a Pre- and Post-Pandemic date range, investigating true inflation percentage, annual inflation against a 2% average, inflation and the effects of S&P 500 performance, how the consumer price index (CPI) reflects house related costs, unemployment rate, correlation between inflation and the Housing cost, the impact of Housing cost on Foreclosures & Mortgage rates and the overall correlation between these indicators.
 
-The business question we hope to answer is: *Can we find a correlation or generate a prediction in analysing an increase or decline in housing costs? Can we find a correlation or generate a prediction in comparing S&P500 Performance. Can we find a correlation or generate a prediction in analysing housing costs compared to unemployment?*
+The business question we hope to answer is: *What are the key interrelationships between inflation, housing market dynamics, unemployment, stock market and how have these relationships evolved over time?*
 
 Our motivation for taking on this challenge is to find out if there is clear causation, or merely a correlation, between the effect of inflation on housing, unemployment and the S&P 500.
 
@@ -88,8 +88,6 @@ In continuing our investigation, we analysed S&P 500 Performance datasets and CP
 
 * The actual inflation rate is typically steady and compares closely with the 2% target. The 2% target is considered low enough to avoid price instability while still providing a buffer against deflation. The 2% target helps individuals and business plan for a future with a predictable price environment. Factors that caused a deviation in the inflation rate during the pandemic were the volitility of energy prices, backlog of work orders for goods and services caused by supply chain issues, and price changes in the auto-related industries.  
 
-https://www.bls.gov/opub/mlr/2023/beyond-bls/what-caused-inflation-to-spike-after-2020.htm
-
 **CPI vs Annual S&P 500 Performance**
 
 * Analyzing CPI vs S&P 500 Performance brought to light that strong or weak stock performance doesnt exactly equate to high or low inflation... but sometimes it does. Looking at the trends of both S&P 500 Performance in our plots, we found that positive S&P 500 annual returns kept the inflation rate at the 2% target. 
@@ -153,18 +151,16 @@ The findings of this research emphasize the interconnected nature of inflation, 
 
 ## References
 
-* Yahoo Finance
-* Nasdaq Data Link APIs:
-  * Zillow
-  * Federal Reserve Economic Data
+
+
 * U.S. Energy Information Administration
 * Federal Reserve Economic Data
-* Coordinates of 50 states: https://gist.github.com/dikaio/0ce2a7e9f7088918f8c6ff24436fd035
 * U.S. Bureau of Labor Statistics
-* https://fastercapital.com/content/House-Price-Index--HPI--vs--Inflation--Understanding-the.html
 * chatgpt.com
-* https://fred.stlouisfed.org/series/CSUSHPISA
 * https://finance.yahoo.com/ - SP500
+* https://fred.stlouisfed.org/series/CSUSHPISA* 
 * https://fred.stlouisfed.org/seriesBeta/FPCPITOTLZGUSA - CPI yearly
 * https://fred.stlouisfed.org/seriesBeta/CPIAUCSL - CPI monthly
 * https://curvo.eu
+* https://www.bls.gov/opub/mlr/2023/beyond-bls/what-caused-inflation-to-spike-after-2020.htm
+* Coordinates of 50 states: https://gist.github.com/dikaio/0ce2a7e9f7088918f8c6ff24436fd035
