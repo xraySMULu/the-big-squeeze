@@ -55,8 +55,6 @@ Our team accessed inflation data from Kaggle, the U.S. Bureau of Labor Statistic
 ![image](Resources/content/cpi_sp_htmp.png)
 **HPI vs. CPI**
 ![image](Resources/content/HPI_Vs_CPI.png)
-**HPI Vs Foreclosures**
-![image](Resources/content/hpi_foreclosures.png)
 **HPI vs.Mortgasge rates**
 ![image](Resources/content/hpi_mortgage_rates.png)
 **Overall Consumer Price Index (CPI) related to House hold costs**
