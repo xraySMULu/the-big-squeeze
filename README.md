@@ -76,9 +76,9 @@ The analysis of CPI vs. S&P 500 Annual Returns.
 ![image](Resources/content/HPI_Vs_CPI.png)
 The analysis of HPI vs CPI.
 
-**HPI vs Mortgage rates**
-![image](Resources/content/hpi_mortgage_rates.png)
-The analysis of HPI vs Mortgage Rates.
+**HPI vs Foreclosure rates**
+![image](Resources/content/hpi_foreclosures.png)
+The analysis of HPI vs Foreclosure Rates.
 
 **Overall Consumer Price Index (CPI) related to House hold costs**
 ![Consumer Price Index (CPI) Pre and Post-Pandemic House Related Costs](Resources/content/la_CPI_HouseRelated.png)
