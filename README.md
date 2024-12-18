@@ -10,7 +10,7 @@
 * `hvplot == 0.7.3`
 * `matplotlib == 3.5.1`
 
-### *File Navigation, Installation & Usage*
+### *File Navigation, Installation, Usage, Demo & Slideshow*
 
 **File Navigation**
 
@@ -24,15 +24,29 @@
   * CPI vs HPI vs Unemployment vs Mortgage Trends 
     * Navigate to [Link to CPI vs HPI vs Unemployment vs Mortgage Trends](Code/xf_analysis.ipynb)
 * Content: 
-  * Navigate to [link](Resources/content) - Directory containing all images of plots created in Jupyter Notebook and demos.
+  * Navigate to [Resources/content](Resources/content) - Directory containing all images of plots created in Jupyter Notebook and demos.
 * Data: 
-  * Navigate to [link](Resources/data) - Directory containing all of the csv files used by the code
+  * Navigate to [Resources/data](Resources/data) - Directory containing all of the csv files used by the code
 
 **Installation**
   * Clone the repository from here.. [Clone Me](https://github.com/xraySMULu/the-big-squeeze.git) 
 
 **Usage**
   * Open Jupyter notebook, click 'Run all' to execute all code blocks.
+
+**Demo**
+* CPI vs S&P 500 Performance Analysis Demo 
+  * Navigate to [Demo](Resources/content/cd_demo.gif)    
+* CPI vs HPI Analysis Demo
+  * Navigate to [Demo](Resources/content/mn_demo.gif)
+* Pre- and Post-Pandemic Economic Trends Demo
+  * Navigate to [Demo](Resources/content/la_demo.gif)
+* CPI vs HPI vs Unemployment vs Mortgage Trends Demo 
+  * Navigate to [Demo](Resources/content/xf_demo.gif)
+
+**Slideshow**
+* Project #1 - Team #9 - Slideshow 
+  * Navigate to [Slideshow PDF](Resources/content/proj1slideshow.pdf)   
 
 ### *Purpose of Use*   
 Our team decided to research the effects of inflation during during a Pre- and Post-Pandemic date range, investigating true inflation percentage, annual inflation against a 2% average, inflation and the effects of S&P 500 performance, how the consumer price index (CPI) reflects house related costs, unemployment rate, correlation between inflation and the Housing cost, the impact of Housing cost on Foreclosures & Mortgage rates and the overall correlation between these indicators.
