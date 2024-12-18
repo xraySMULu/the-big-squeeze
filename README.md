@@ -118,9 +118,27 @@ To begin our investigation, we took a look at the consumer Price Index and Home 
 
 ### Impact Of Inflation On Housing And Unemployment
 
-* Housing Costs: Inflation significantly increased home prices, rents, and maintenance costs, reducing affordability.  
-* Unemployment: Inflation led to sector-specific job losses and increased wage pressures, affecting overall employment stability.
+**Consumer Price Index (CPI) Trends**
+  * Displays the CPI for household-related costs over pre-pandemic and post-pandemic periods.
+  * Post-pandemic CPI shows a sharp increase in rents, utilities, and maintenance costs compared to the steady rise before the pandemic.
+
+ **CPI Breakdown for Renters and Homeowners**
+  * Compares the CPI components for **renters** (Rent of Primary Residence, Utilities) and **homeowners** (Owners' Equivalent Rent, Maintenance Costs).
+  * Post-pandemic inflation disproportionately increased costs for both renters and homeowners.
+
+**Unemployment Rate Trends**
+   * Shows unemployment rates during the pre-pandemic and post-pandemic periods.
+   * Displays the overall unemployment rate during the pre-pandemic and post-pandemic periods.
+   * Unemployment spiked sharply during the pandemic, reaching **14.7%** in 2020, but gradually recovered to around **4%** by 2024.
+   * Inflation-driven economic policies, such as interest rate hikes, contributed to fluctuations in unemployment.
   
+ **Sector-Specific Unemployment Trends**
+   * Visualizes unemployment trends in key sectors such as **Leisure and Hospitality**, **Retail Trade**, **Manufacturing**, **Healthcare**, and **Professional and Business Services**.
+   
+ **Key Insignts** 
+  * Housing Costs: Post-pandemic inflation led to a sharp rise in rents, home prices, utilities, and maintenance costs, impacting affordability for households.
+  * Unemployment: Unemployment spiked in specific sectors during the pandemic and recovered gradually, but inflationary pressures continue to strain job stability.
+
 ### CPI vs HPI vs Unemployment vs Mortgage
 
 * In finalizing our investigation we decided to see if there were any correlations between the 4 major things we discussed.
