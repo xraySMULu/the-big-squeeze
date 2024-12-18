@@ -228,7 +228,7 @@ The findings of this research emphasize the interconnected nature of inflation, 
 * U.S. Bureau of Labor Statistics
 * chatgpt.com
 * https://finance.yahoo.com/ - SP500
-* https://fred.stlouisfed.org/series/CSUSHPISA* 
+* https://fred.stlouisfed.org/series/CSUSHPISA - Housing
 * https://fred.stlouisfed.org/seriesBeta/FPCPITOTLZGUSA - CPI yearly
 * https://fred.stlouisfed.org/seriesBeta/CPIAUCSL - CPI monthly
 * https://curvo.eu
