@@ -2,13 +2,22 @@
 
 ## **Project Overview**
 
-### *Package Requirements and Versions*
+### *Package Requirements*
 
 `pip install x` ; where 'x' is the package listed below:
-* `python == 3.7.13+` 
-* `pandas == 2.2.2`
-* `hvplot == 0.7.3`
-* `matplotlib == 3.5.1`
+* datetime 
+* pandas
+* hvplot
+* matplotlib
+* numpy
+* cpi
+* sklearn.linear_model
+* sklearn.preprocessing
+* seaborn
+* prophet
+* hvplot
+* scipy.stats
+* warnings
 
 ### *File Navigation, Installation, Usage, Demo & Slideshow*
 
@@ -36,7 +45,7 @@
 
 **Demo**
 * CPI vs S&P 500 Performance Analysis Demo 
-  * Navigate to [Demo](Resources/content/cd_demo.gif)    
+  * Navigate to [Demo](Resources/content/cg_demo.gif)    
 * CPI vs HPI Analysis Demo
   * Navigate to [Demo](Resources/content/mn_demo.gif)
 * Pre- and Post-Pandemic Economic Trends Demo
