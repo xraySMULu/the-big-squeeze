@@ -10,19 +10,30 @@
 * `hvplot == 0.7.3`
 * `matplotlib == 3.5.1`
 
-### *Files Navigation*
+### *File Navigation, Installation & Usage *
+**File Navigation**
 * Code: Code - Directory containing all of the the code
-  * CPI vs GDP 500 Performance Analysis - Navigate to 'Code/cg_analysis.ipynb'
-  * CPI vs HPI Analysis - Navigate to 'Code/mn_analysis.ipynb'
-  * Pre- and Post-Pandemic Economic Trends - Navigate to 'Code/la_analysis.ipynb'
-  * CPI vs HPI vs Unemployment vs Mortgage Trends - Navigate to 'Code/xf_analysis.ipynb'
-* Content: Resources/content - Directory containing all images of plots created in Jupyter Notebook
-* Data: Resources/Data - Directory containing all of the csv files used by the code
-  
+  * CPI vs S&P 500 Performance Analysis 
+    * Navigate to ![Link to CPI vs S&P 500 Analysis](Code/cg_analysis.ipynb)    
+  * CPI vs HPI Analysis
+    * Navigate to ![Link to CPI vs HPI Analysis](Code/mn_analysis.ipynb)
+  * Pre- and Post-Pandemic Economic Trends
+    * Navigate to ![Link to Pre- and Post-Pandemic Economic Trends](Code/la_analysis.ipynb)
+  * CPI vs HPI vs Unemployment vs Mortgage Trends 
+    * Navigate to ![Link to CPI vs HPI vs Unemployment vs Mortgage Trends](Code/xf_analysis.ipynb)
+* Content: 
+  * Navigate to ![Resources/Content](Resources/content) - Directory containing all images of plots created in Jupyter Notebook and demos.
+* Data: 
+  * Navigate to ![Resources/Content](Resources/data) - Directory containing all of the csv files used by the code
+**Installation**
+* Clone the repository from here.. ![Resources/Content](https://github.com/xraySMULu/the-big-squeeze.git) 
+**Usage**
+* Open Jupyter notebook, click 'Run all' to execute all code blocks.
+
 ### *Purpose of Use*   
 Our team decided to research the effects of inflation during during a Pre- and Post-Pandemic date range, investigating true inflation percentage, annual inflation against a 2% average, inflation and the effects of S&P 500 performance, how the consumer price index (CPI) reflects house related costs, unemployment rate, correlation between inflation and the Housing cost, the impact of Housing cost on Foreclosures & Mortgage rates and the overall correlation between these indicators.
 
-The business question we hope to answer is: *What are the key interrelationships between inflation, housing market dynamics, unemployment, stock market and how have these relationships evolved over time?*
+The business question we hope to answer is: *What are the key interrelationships between inflation, housing market dynamics, unemployment, stock market and how have these relationships have evolved over time?*
 
 Our motivation for taking on this challenge is to find out if there is clear causation, or merely a correlation, between the effect of inflation on housing, unemployment and the S&P 500.
 
@@ -47,26 +58,32 @@ Our team accessed inflation data from Kaggle, the U.S. Bureau of Labor Statistic
   * We gathered our time-series data from both Kaggle and the Federal Reserve of Economic Data in CSV format for it to be easier to read into our dataframes. After reading in the CSV files, we cleaned up the data by renaming colums as well as converting the "Date" columns into datetime format. We also filtered the columns to focus on the specfic data we wanted to look at and compare. We then sliced the dataframe to go along the same timelines. After all the data has been refined, it was graphed into visualizations. 
 
 ## Visuals and Explanations
+* To depict the trends and analysis we used line graphs, bar charts, scatter plots and heatmaps. Below is a sample of each as well as the location of the code.
+
 **Consumer Price Index (CPI): Inflation Rate**
 ![image](Resources/content/cpi_infl_rate.png)
+* The inflation rate during the -Pre and -Post pandemic period.
 **CPI vs. S&P 500 Annual Returns**
 ![image](Resources/content/cpi_sp_annret.png)
-**CPI & S&P 500 Correlation Heatmap**
-![image](Resources/content/cpi_sp_htmp.png)
+* The analysis of CPI vs. S&P 500 Annual Returns.
 **HPI vs. CPI**
 ![image](Resources/content/HPI_Vs_CPI.png)
-**HPI vs.Mortgasge rates**
+* The analysis of HPI vs CPI.
+**HPI vs Mortgage rates**
 ![image](Resources/content/hpi_mortgage_rates.png)
+* The analysis of HPI vs Mortgage Rates
 **Overall Consumer Price Index (CPI) related to House hold costs**
 ![Consumer Price Index (CPI) Pre and Post-Pandemic House Related Costs](Resources/content/la_CPI_HouseRelated.png)
+* The trends of CPI vs Household costs
 **CPI breakdown of Renters and Owners**
 ![CPI for Renters and Homeowners](Resources/content/la_CPI_Renters_Owners.png)
-**Overall unemployment rate**
-![Unemployment Pre and Post-Pandemic](Resources/content/la_unemployment.png)
+* The trends of CPI vs Renters and Owners
 **Breakdown of heavily impacted job sectors**
 ![Most inflated unemployment sectors Pre and Post-Pandemic](Resources/content/la_unemployment_sectors.png)
+* The trends of heavily impacted job sectors
 **Correlation between cpi, hpi, unemployment, and mortgage**
 ![Correlation Heatmap](Resources/content/cpi_hpi_unem_mort.png)
+* The correlation between cpi, hpi, unemployment, and mortgage
 
 ## Additional Explanations and Major Findings
 
@@ -74,7 +91,7 @@ Our team accessed inflation data from Kaggle, the U.S. Bureau of Labor Statistic
 * The correlation between inflation and the S&P 500 Performance is weak. 
 * The correlation between inflation and housing is strong positive.
 * The correlation between housing and foreclosures is strong negative.
-* Inflation simultaneously challenges housing affordability and job security, impacting overall economic well-being.
+* Inflation poses a dual challenge by undermining housing affordability and threatening job security, ultimately affecting overall economic well-being.
   
 ### CPI vs S&P 500
 
@@ -171,8 +188,6 @@ This research explored the intricate relationships among inflation, housing mark
 The findings of this research emphasize the interconnected nature of inflation, mortgage rates, and housing market dynamics. Policymakers and economic stakeholders must recognize these relationships when designing interventions to ensure financial stability. Incorporating housing-specific metrics like HPI alongside broader inflation measures such as CPI can provide a more nuanced understanding of economic conditions.
 
 ## References
-
-
 
 * U.S. Energy Information Administration
 * Federal Reserve Economic Data
