@@ -223,14 +223,12 @@ The findings of this research emphasize the interconnected nature of inflation, 
 
 ## References
 
-* U.S. Energy Information Administration
-* Federal Reserve Economic Data
-* U.S. Bureau of Labor Statistics
-* chatgpt.com
+* https://www.eia.gov/ - U.S. Energy Information Administration
+* https://fred.stlouisfed.org/ - Federal Reserve Economic Data
+* https://www.bls.gov/ - U.S. Bureau of Labor Statistics
+* https://chatgpt.com
 * https://finance.yahoo.com/ - SP500
 * https://fred.stlouisfed.org/series/CSUSHPISA - Housing
 * https://fred.stlouisfed.org/seriesBeta/FPCPITOTLZGUSA - CPI yearly
 * https://fred.stlouisfed.org/seriesBeta/CPIAUCSL - CPI monthly
-* https://curvo.eu
-* https://www.bls.gov/opub/mlr/2023/beyond-bls/what-caused-inflation-to-spike-after-2020.htm
 * Coordinates of 50 states: https://gist.github.com/dikaio/0ce2a7e9f7088918f8c6ff24436fd035
